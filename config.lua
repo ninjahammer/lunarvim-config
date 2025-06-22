@@ -4,6 +4,7 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
+package.path = package.path .. ";/home/ninjahammer/.config/lvim/?.lua"
 
 require('alias')
 require('overrides')
